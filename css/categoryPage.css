@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	color: #000
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+.head-link {
+	text-align: right;
+	padding: 1em
+}
+.logo {
+	width: 250px;
+	background-image: url(../images/logoWatershed.png);
+	background-repeat: no-repeat;
+	height: 66px;
+	float: left;
+}
+.icons {
+	width: 30px;
+	float: right;
+	margin-left: 1em
+}
+section.main-content {
+	clear: both;
+}
+ul.categories {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 250px;
+	float: left;
+}
+.slide {
+	width: 600px;
+	float: left;
+}
+.categories > span.highlight {
+	font-size: 1.5em;
+	padding: 5px;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	background: rgba(255,204,51,1);
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.categories > li {
+	border-bottom: 1px solid rgba(153,153,153,0.5);
+	padding-left: 10px;
+	background-image: url(../images/list.gif);
+	background-repeat: no-repeat;
+	background-position: 0 18px;
+}
+.categories > li > a:link, .categories > li > a:visited {
+	padding: 10px 5px 5px 5px;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	display: block;
+}
+.slide {
+	height: 332px;
+	width: 632px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	margin-left: 1em;
+}
+.slide img {
+	height: 300px;
+	width: 600px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	top: 0;
+	left: 0
+}
+.slide img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#form1 {
+	display: block;
+	float: right;
+	widows: 200px;
+	margin-left: 1em
+}
+#form1 input[type=text] {
+	width: 300px;
+	height: 25px
+}
+#form1 button {
+	height: 30px;
+	background: rgba(255,204,51,1);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-left: 5px
+}
+ul.image-container {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 50px;
+}
+ul.image-container li {
+	display: inline;
+	padding: 8px;
+	margin: 0;
+}
+div.image-holder {
+	padding-top: 2em;
+	clear: both;
+}
+ul.image-store {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 50px;
+}
+ul.image-store li {
+	display: inline;
+	padding: 8px;
+	margin: 0;
+	position: relative;
+	margin-bottom: 4em;
+}
+ul.image-store li img {
+	padding-bottom: 6em;
+}
+ul.image-store div.info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: auto;
+	margin-top: 1em;
+}
+ul.image-store span.info-name {
+	display: block;
+	font-weight: bold
+}
+ul.image-store span.info-details {
+	display: block;
+}
+ul.image-store span.info-price {
+	display: block;
+	padding-bottom: 1em;
+	color: #F00;
+}
+ul.image-store span.info-price:before {
+	content: "# ";
+}
+footer{height:100px; background-color:

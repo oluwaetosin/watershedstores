@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	color: #000;
+	background-color:rgba(204,204,204,0.5);
+}
+.wrapper {
+	width:  1000px;
+	margin: 0 auto;
+}
+.head-link {
+	text-align: right;
+	padding: 1em
+}
+.logo {
+	width: 250px;
+	background-image: url(../images/logoWatershed.png);
+	background-repeat: no-repeat;
+	height: 66px;
+	float: left;
+}
+.icons {
+	width: 30px;
+	float: right;
+	margin-left: 1em
+}
+section.main-content {
+	clear: both;
+}
+ul.categories {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 250px;
+	float: left;
+}
+.slide {
+	width: 600px;
+	float: left;
+}
+.categories > span.highlight {
+	font-size: 1.5em;
+	padding: 5px;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	background: rgba(255,204,51,1);
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.categories > li {
+	border-bottom: 1px solid rgba(153,153,153,0.5);
+	padding-left: 10px;
+	background-image: url(../images/list.gif);
+	background-repeat: no-repeat;
+	background-position: 0 18px;
+}
+.categories > li > a:link, .categories > li > a:visited {
+	padding: 10px 5px 5px 5px;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	display: block;
+}
+/******footer***/
+footer{ clear:both; background-color:#666; padding:1em 0 3em 0; margin: 3em 0 0 0; height:auto; width:100%; min-width:950px}
+
+footer .left{float:left; width:300px;}
+footer .mid{float:left; width:300px; }
+footer .right{float:left; width:300px; }
+footer  ul{ margin:0; padding:0; list-style-type:none;}
+footer ul li a:link, footer ul li a:visited{text-decoration:none; color:#fff;}
+.clear{clear:both;}

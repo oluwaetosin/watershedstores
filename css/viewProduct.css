@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	color: #000;
+	background-color: #rgba(204, 204, 204, 0.5);
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+.head-link {
+	text-align: right;
+	padding: 1em
+}
+.logo {
+	width: 250px;
+	background-image: url(../images/logoWatershed.png);
+	background-repeat: no-repeat;
+	height: 66px;
+	float: left;
+}
+.icons {
+	width: 30px;
+	float: right;
+	margin-left: 1em
+}
+section.main-content {
+	clear: both;
+}
+ul.categories {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 250px;
+	float: left;
+}
+.slide {
+	width: 600px;
+	float: left;
+}
+.categories > span.highlight {
+	font-size: 1.5em;
+	padding: 5px;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	background: rgba(255,204,51,1);
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.categories > li {
+	border-bottom: 1px solid rgba(153,153,153,0.5);
+	padding-left: 10px;
+	background-image: url(../images/list.gif);
+	background-repeat: no-repeat;
+	background-position: 0 18px;
+}
+.categories > li > a:link, .categories > li > a:visited {
+	padding: 10px 5px 5px 5px;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	display: inline-block;
+}
+#form1 {
+	display: block;
+	float: right;
+	widows: 200px;
+	margin-left: 1em
+}
+#form1 input[type=text] {
+	width: 300px;
+	height: 25px
+}
+#form1 button {
+	height: 30px;
+	background: rgba(255,204,51,1);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-left: 5px
+}
+div.image-holder {
+	height: auto;
+	width: 732px;
+	margin: 0;
+	overflow: hidden;
+	margin-left: 1em;
+	float: left;
+}
+div.image-holder .image {
+	width: 300px;
+	padding: 2em;
+	float: left;
+	border: 1px solid #666;
+	background: #fff;
+}
+div.image-holder .image img {
+	margin: 0 auto;
+}
+div.image-holder .details {
+	width: 300px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 0.5em;
+}
+div.image-holder .details h1 {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 0;
+	padding-bottom: 0.5em;
+}
+div.image-holder .details p {
+	font-size: 1.0em;
+	margin-top: 0;
+	padding: 0;
+}
+div.image-holder .details .price {
+	color: #930
+}
+div.image-holder .details .price:before {
+	content: '# ';
+}
+#add-to-cart {padding-top:0.2em;}
+#add-to-cart a:link, #add-to-cart a:visited {
+	background-color: #FC0;
+	text-decoration: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	height: 20px;
+	width: 90px;
+	padding: 0.5em;
+	color: #930;
+	display: block;
+	margin: 0 auto;
+}
